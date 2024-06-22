@@ -1,0 +1,695 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1E68FF102C243AB5004ABE34 /* NoteSmartTodoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E68FF0F2C243AB5004ABE34 /* NoteSmartTodoApp.swift */; };
+		1E68FF122C243AB5004ABE34 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E68FF112C243AB5004ABE34 /* Persistence.swift */; };
+		1E68FF152C243AB5004ABE34 /* NoteSmartTodo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1E68FF132C243AB5004ABE34 /* NoteSmartTodo.xcdatamodeld */; };
+		1E68FF192C243AB7004ABE34 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E68FF182C243AB7004ABE34 /* Assets.xcassets */; };
+		1E68FF1D2C243AB7004ABE34 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E68FF1C2C243AB7004ABE34 /* Preview Assets.xcassets */; };
+		1E68FF272C243AB7004ABE34 /* NoteSmartTodoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E68FF262C243AB7004ABE34 /* NoteSmartTodoTests.swift */; };
+		1E68FF312C243AB7004ABE34 /* NoteSmartTodoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E68FF302C243AB7004ABE34 /* NoteSmartTodoUITests.swift */; };
+		1E68FF332C243AB7004ABE34 /* NoteSmartTodoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E68FF322C243AB7004ABE34 /* NoteSmartTodoUITestsLaunchTests.swift */; };
+		1E88B2AC2C25D442001820C9 /* TextEditorWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E88B2AB2C25D442001820C9 /* TextEditorWrapper.swift */; };
+		1E88B2AE2C25D459001820C9 /* DragRelocateDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E88B2AD2C25D459001820C9 /* DragRelocateDelegate.swift */; };
+		1E88B2BC2C25E9D5001820C9 /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E88B2BB2C25E9D5001820C9 /* Note.swift */; };
+		1E88B2C42C260CA9001820C9 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E88B2C32C260CA9001820C9 /* MainView.swift */; };
+		1E88B2C62C260CC7001820C9 /* NoteDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E88B2C52C260CC7001820C9 /* NoteDetailView.swift */; };
+		1E88B2C82C26183F001820C9 /* TodoListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E88B2C72C26183F001820C9 /* TodoListView.swift */; };
+		1E88B2CA2C263533001820C9 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E88B2C92C263533001820C9 /* HeaderView.swift */; };
+		1E88B2CC2C263546001820C9 /* NotesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E88B2CB2C263546001820C9 /* NotesView.swift */; };
+		1E88B2CE2C26355E001820C9 /* DateUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E88B2CD2C26355E001820C9 /* DateUtilities.swift */; };
+		1E88B3122C26DB8F001820C9 /* WindowAccessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E88B3112C26DB8F001820C9 /* WindowAccessor.swift */; };
+		1E88B3162C26E2C7001820C9 /* NoteCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E88B3152C26E2C7001820C9 /* NoteCardView.swift */; };
+		1E88B31A2C26E45F001820C9 /* NSVisualEffectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E88B3192C26E45F001820C9 /* NSVisualEffectView.swift */; };
+		1E88B31E2C270F36001820C9 /* TodoListMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E88B31D2C270F36001820C9 /* TodoListMainView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1E68FF232C243AB7004ABE34 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1E68FF042C243AB5004ABE34 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1E68FF0B2C243AB5004ABE34;
+			remoteInfo = NoteSmartTodo;
+		};
+		1E68FF2D2C243AB7004ABE34 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1E68FF042C243AB5004ABE34 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1E68FF0B2C243AB5004ABE34;
+			remoteInfo = NoteSmartTodo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1E68FF0C2C243AB5004ABE34 /* NoteSmartTodo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NoteSmartTodo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E68FF0F2C243AB5004ABE34 /* NoteSmartTodoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteSmartTodoApp.swift; sourceTree = "<group>"; };
+		1E68FF112C243AB5004ABE34 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		1E68FF142C243AB5004ABE34 /* NoteSmartTodo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NoteSmartTodo.xcdatamodel; sourceTree = "<group>"; };
+		1E68FF182C243AB7004ABE34 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1E68FF1A2C243AB7004ABE34 /* NoteSmartTodo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = NoteSmartTodo.entitlements; sourceTree = "<group>"; };
+		1E68FF1C2C243AB7004ABE34 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1E68FF222C243AB7004ABE34 /* NoteSmartTodoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NoteSmartTodoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E68FF262C243AB7004ABE34 /* NoteSmartTodoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteSmartTodoTests.swift; sourceTree = "<group>"; };
+		1E68FF2C2C243AB7004ABE34 /* NoteSmartTodoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NoteSmartTodoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E68FF302C243AB7004ABE34 /* NoteSmartTodoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteSmartTodoUITests.swift; sourceTree = "<group>"; };
+		1E68FF322C243AB7004ABE34 /* NoteSmartTodoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteSmartTodoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1E68FF432C244777004ABE34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		1E88B2AB2C25D442001820C9 /* TextEditorWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextEditorWrapper.swift; sourceTree = "<group>"; };
+		1E88B2AD2C25D459001820C9 /* DragRelocateDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragRelocateDelegate.swift; sourceTree = "<group>"; };
+		1E88B2BB2C25E9D5001820C9 /* Note.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
+		1E88B2C32C260CA9001820C9 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		1E88B2C52C260CC7001820C9 /* NoteDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteDetailView.swift; sourceTree = "<group>"; };
+		1E88B2C72C26183F001820C9 /* TodoListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListView.swift; sourceTree = "<group>"; };
+		1E88B2C92C263533001820C9 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		1E88B2CB2C263546001820C9 /* NotesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesView.swift; sourceTree = "<group>"; };
+		1E88B2CD2C26355E001820C9 /* DateUtilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateUtilities.swift; sourceTree = "<group>"; };
+		1E88B3112C26DB8F001820C9 /* WindowAccessor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WindowAccessor.swift; sourceTree = "<group>"; };
+		1E88B3152C26E2C7001820C9 /* NoteCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteCardView.swift; sourceTree = "<group>"; };
+		1E88B3192C26E45F001820C9 /* NSVisualEffectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSVisualEffectView.swift; sourceTree = "<group>"; };
+		1E88B31D2C270F36001820C9 /* TodoListMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListMainView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1E68FF092C243AB5004ABE34 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E68FF1F2C243AB7004ABE34 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E68FF292C243AB7004ABE34 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1E68FF032C243AB5004ABE34 = {
+			isa = PBXGroup;
+			children = (
+				1E68FF0E2C243AB5004ABE34 /* NoteSmartTodo */,
+				1E68FF252C243AB7004ABE34 /* NoteSmartTodoTests */,
+				1E68FF2F2C243AB7004ABE34 /* NoteSmartTodoUITests */,
+				1E68FF0D2C243AB5004ABE34 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1E68FF0D2C243AB5004ABE34 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1E68FF0C2C243AB5004ABE34 /* NoteSmartTodo.app */,
+				1E68FF222C243AB7004ABE34 /* NoteSmartTodoTests.xctest */,
+				1E68FF2C2C243AB7004ABE34 /* NoteSmartTodoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1E68FF0E2C243AB5004ABE34 /* NoteSmartTodo */ = {
+			isa = PBXGroup;
+			children = (
+				1E68FF432C244777004ABE34 /* Info.plist */,
+				1E68FF0F2C243AB5004ABE34 /* NoteSmartTodoApp.swift */,
+				1E88B3112C26DB8F001820C9 /* WindowAccessor.swift */,
+				1E68FF112C243AB5004ABE34 /* Persistence.swift */,
+				1E68FF182C243AB7004ABE34 /* Assets.xcassets */,
+				1E68FF1A2C243AB7004ABE34 /* NoteSmartTodo.entitlements */,
+				1E68FF132C243AB5004ABE34 /* NoteSmartTodo.xcdatamodeld */,
+				1E68FF1B2C243AB7004ABE34 /* Preview Content */,
+				1E88B2AB2C25D442001820C9 /* TextEditorWrapper.swift */,
+				1E88B2AD2C25D459001820C9 /* DragRelocateDelegate.swift */,
+				1E88B2BB2C25E9D5001820C9 /* Note.swift */,
+				1E88B2C32C260CA9001820C9 /* MainView.swift */,
+				1E88B31D2C270F36001820C9 /* TodoListMainView.swift */,
+				1E88B3152C26E2C7001820C9 /* NoteCardView.swift */,
+				1E88B3192C26E45F001820C9 /* NSVisualEffectView.swift */,
+				1E88B2C52C260CC7001820C9 /* NoteDetailView.swift */,
+				1E88B2C92C263533001820C9 /* HeaderView.swift */,
+				1E88B2CB2C263546001820C9 /* NotesView.swift */,
+				1E88B2CD2C26355E001820C9 /* DateUtilities.swift */,
+				1E88B2C72C26183F001820C9 /* TodoListView.swift */,
+			);
+			path = NoteSmartTodo;
+			sourceTree = "<group>";
+		};
+		1E68FF1B2C243AB7004ABE34 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				1E68FF1C2C243AB7004ABE34 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1E68FF252C243AB7004ABE34 /* NoteSmartTodoTests */ = {
+			isa = PBXGroup;
+			children = (
+				1E68FF262C243AB7004ABE34 /* NoteSmartTodoTests.swift */,
+			);
+			path = NoteSmartTodoTests;
+			sourceTree = "<group>";
+		};
+		1E68FF2F2C243AB7004ABE34 /* NoteSmartTodoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1E68FF302C243AB7004ABE34 /* NoteSmartTodoUITests.swift */,
+				1E68FF322C243AB7004ABE34 /* NoteSmartTodoUITestsLaunchTests.swift */,
+			);
+			path = NoteSmartTodoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1E68FF0B2C243AB5004ABE34 /* NoteSmartTodo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E68FF362C243AB7004ABE34 /* Build configuration list for PBXNativeTarget "NoteSmartTodo" */;
+			buildPhases = (
+				1E68FF082C243AB5004ABE34 /* Sources */,
+				1E68FF092C243AB5004ABE34 /* Frameworks */,
+				1E68FF0A2C243AB5004ABE34 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NoteSmartTodo;
+			productName = NoteSmartTodo;
+			productReference = 1E68FF0C2C243AB5004ABE34 /* NoteSmartTodo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1E68FF212C243AB7004ABE34 /* NoteSmartTodoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E68FF392C243AB7004ABE34 /* Build configuration list for PBXNativeTarget "NoteSmartTodoTests" */;
+			buildPhases = (
+				1E68FF1E2C243AB7004ABE34 /* Sources */,
+				1E68FF1F2C243AB7004ABE34 /* Frameworks */,
+				1E68FF202C243AB7004ABE34 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1E68FF242C243AB7004ABE34 /* PBXTargetDependency */,
+			);
+			name = NoteSmartTodoTests;
+			productName = NoteSmartTodoTests;
+			productReference = 1E68FF222C243AB7004ABE34 /* NoteSmartTodoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1E68FF2B2C243AB7004ABE34 /* NoteSmartTodoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E68FF3C2C243AB7004ABE34 /* Build configuration list for PBXNativeTarget "NoteSmartTodoUITests" */;
+			buildPhases = (
+				1E68FF282C243AB7004ABE34 /* Sources */,
+				1E68FF292C243AB7004ABE34 /* Frameworks */,
+				1E68FF2A2C243AB7004ABE34 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1E68FF2E2C243AB7004ABE34 /* PBXTargetDependency */,
+			);
+			name = NoteSmartTodoUITests;
+			productName = NoteSmartTodoUITests;
+			productReference = 1E68FF2C2C243AB7004ABE34 /* NoteSmartTodoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1E68FF042C243AB5004ABE34 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					1E68FF0B2C243AB5004ABE34 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					1E68FF212C243AB7004ABE34 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 1E68FF0B2C243AB5004ABE34;
+					};
+					1E68FF2B2C243AB7004ABE34 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 1E68FF0B2C243AB5004ABE34;
+					};
+				};
+			};
+			buildConfigurationList = 1E68FF072C243AB5004ABE34 /* Build configuration list for PBXProject "NoteSmartTodo" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1E68FF032C243AB5004ABE34;
+			productRefGroup = 1E68FF0D2C243AB5004ABE34 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1E68FF0B2C243AB5004ABE34 /* NoteSmartTodo */,
+				1E68FF212C243AB7004ABE34 /* NoteSmartTodoTests */,
+				1E68FF2B2C243AB7004ABE34 /* NoteSmartTodoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1E68FF0A2C243AB5004ABE34 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E68FF1D2C243AB7004ABE34 /* Preview Assets.xcassets in Resources */,
+				1E68FF192C243AB7004ABE34 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E68FF202C243AB7004ABE34 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E68FF2A2C243AB7004ABE34 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1E68FF082C243AB5004ABE34 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E88B2CE2C26355E001820C9 /* DateUtilities.swift in Sources */,
+				1E88B2C62C260CC7001820C9 /* NoteDetailView.swift in Sources */,
+				1E88B2AC2C25D442001820C9 /* TextEditorWrapper.swift in Sources */,
+				1E88B31E2C270F36001820C9 /* TodoListMainView.swift in Sources */,
+				1E88B2C42C260CA9001820C9 /* MainView.swift in Sources */,
+				1E88B2BC2C25E9D5001820C9 /* Note.swift in Sources */,
+				1E88B3122C26DB8F001820C9 /* WindowAccessor.swift in Sources */,
+				1E68FF152C243AB5004ABE34 /* NoteSmartTodo.xcdatamodeld in Sources */,
+				1E88B2CA2C263533001820C9 /* HeaderView.swift in Sources */,
+				1E88B2CC2C263546001820C9 /* NotesView.swift in Sources */,
+				1E88B31A2C26E45F001820C9 /* NSVisualEffectView.swift in Sources */,
+				1E88B2C82C26183F001820C9 /* TodoListView.swift in Sources */,
+				1E88B3162C26E2C7001820C9 /* NoteCardView.swift in Sources */,
+				1E68FF102C243AB5004ABE34 /* NoteSmartTodoApp.swift in Sources */,
+				1E88B2AE2C25D459001820C9 /* DragRelocateDelegate.swift in Sources */,
+				1E68FF122C243AB5004ABE34 /* Persistence.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E68FF1E2C243AB7004ABE34 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E68FF272C243AB7004ABE34 /* NoteSmartTodoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E68FF282C243AB7004ABE34 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E68FF332C243AB7004ABE34 /* NoteSmartTodoUITestsLaunchTests.swift in Sources */,
+				1E68FF312C243AB7004ABE34 /* NoteSmartTodoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1E68FF242C243AB7004ABE34 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1E68FF0B2C243AB5004ABE34 /* NoteSmartTodo */;
+			targetProxy = 1E68FF232C243AB7004ABE34 /* PBXContainerItemProxy */;
+		};
+		1E68FF2E2C243AB7004ABE34 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1E68FF0B2C243AB5004ABE34 /* NoteSmartTodo */;
+			targetProxy = 1E68FF2D2C243AB7004ABE34 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1E68FF342C243AB7004ABE34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1E68FF352C243AB7004ABE34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		1E68FF372C243AB7004ABE34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = NoteSmartTodo/NoteSmartTodo.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"NoteSmartTodo/Preview Content\"";
+				DEVELOPMENT_TEAM = ZUHV4KHFD8;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NoteSmartTodo/Info.plist;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = NoteSmartTodo.NoteSmartTodo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1E68FF382C243AB7004ABE34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = NoteSmartTodo/NoteSmartTodo.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"NoteSmartTodo/Preview Content\"";
+				DEVELOPMENT_TEAM = ZUHV4KHFD8;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NoteSmartTodo/Info.plist;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = NoteSmartTodo.NoteSmartTodo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1E68FF3A2C243AB7004ABE34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZUHV4KHFD8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = NoteSmartTodo.NoteSmartTodoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NoteSmartTodo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NoteSmartTodo";
+			};
+			name = Debug;
+		};
+		1E68FF3B2C243AB7004ABE34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZUHV4KHFD8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = NoteSmartTodo.NoteSmartTodoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NoteSmartTodo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NoteSmartTodo";
+			};
+			name = Release;
+		};
+		1E68FF3D2C243AB7004ABE34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZUHV4KHFD8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = NoteSmartTodo.NoteSmartTodoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NoteSmartTodo;
+			};
+			name = Debug;
+		};
+		1E68FF3E2C243AB7004ABE34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZUHV4KHFD8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = NoteSmartTodo.NoteSmartTodoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NoteSmartTodo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1E68FF072C243AB5004ABE34 /* Build configuration list for PBXProject "NoteSmartTodo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E68FF342C243AB7004ABE34 /* Debug */,
+				1E68FF352C243AB7004ABE34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1E68FF362C243AB7004ABE34 /* Build configuration list for PBXNativeTarget "NoteSmartTodo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E68FF372C243AB7004ABE34 /* Debug */,
+				1E68FF382C243AB7004ABE34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1E68FF392C243AB7004ABE34 /* Build configuration list for PBXNativeTarget "NoteSmartTodoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E68FF3A2C243AB7004ABE34 /* Debug */,
+				1E68FF3B2C243AB7004ABE34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1E68FF3C2C243AB7004ABE34 /* Build configuration list for PBXNativeTarget "NoteSmartTodoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E68FF3D2C243AB7004ABE34 /* Debug */,
+				1E68FF3E2C243AB7004ABE34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		1E68FF132C243AB5004ABE34 /* NoteSmartTodo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				1E68FF142C243AB5004ABE34 /* NoteSmartTodo.xcdatamodel */,
+			);
+			currentVersion = 1E68FF142C243AB5004ABE34 /* NoteSmartTodo.xcdatamodel */;
+			path = NoteSmartTodo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 1E68FF042C243AB5004ABE34 /* Project object */;
+}
